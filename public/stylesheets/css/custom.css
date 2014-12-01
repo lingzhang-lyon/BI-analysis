@@ -1,0 +1,105 @@
+/* this is a custom CSS stylesheet */
+body {
+	padding-top: 20px;
+}
+
+header {
+	padding: 0.5em 0;
+	margin: 0.5em 0;
+	border-bottom: 1px solid #ddd;
+}
+
+h1orange{
+	font-size:2em;
+	margin:.67em 0;
+	color: #EE9A4D;}
+
+h2orange{
+	font-size:22px;
+	margin:.67em 0;
+	color: #EE9A4D;}
+
+h3green{
+	font-size:18px;
+	margin:.67em 0;
+	color: #3EA055;}
+
+h3red{
+	font-size:18px;
+	margin:.67em 0;
+	color: #ff3232;}
+	
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
+.glyphicon {
+	color: #3F2B22;
+}
+
+.pull-right.img-responsive {
+	margin:0 0 1em 1em;
+}
+
+.btn-info {
+	background-color: #cdae51;
+	border-color:#3F2B22;
+	color:#fff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+
+.breadcrumb > li + li:before {
+
+  content: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+.active .glyphicon {
+	color: #cdae51;
+}
+
+
